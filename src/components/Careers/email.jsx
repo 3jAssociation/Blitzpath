@@ -10,6 +10,10 @@ const Contact = () => {
  const [inputData,setInputData] = useState({
   name:'',
   email:'',
+  position:'',
+  skills:'',
+  experience:'',
+  notice_period:'',
   message:''
  })
  const handleChange = (e)=>{
@@ -47,6 +51,10 @@ const Contact = () => {
       setInputData({
         name:'',
         email:'',
+        position:'',
+        skills:'',
+        experience:'',
+        notice_period:'',
         message:''
       })
     }
@@ -72,14 +80,14 @@ const Contact = () => {
        
         <label>Year of Graduation</label>
         <input type="date"  name="graduation_year"/>
-        <label>Applying For</label>
-        <input type="text" value={inputData.name} onChange={handleChange} name="Position"/>
+        <label>Position</label>
+        <input type="text" value={inputData.position} onChange={handleChange} name="position"/>
         <label>Skills</label>
-        <input type="text" value={inputData.name} onChange={handleChange} name="skills"/>
+        <input type="text" value={inputData.skills} onChange={handleChange} name="skills"/>
         <label>Experience</label>
-        <input type="text" value={inputData.name} onChange={handleChange} name="experience"/>
+        <input type="text" value={inputData.experience} onChange={handleChange} name="experience"/>
         <label>Notice Period</label>
-        <input type="text" value={inputData.name} onChange={handleChange} name="notice_period"/>
+        <input type="text" value={inputData.notice_period} onChange={handleChange} name="notice_period"/>
         <label>Why you want to join us</label>
         <textarea name="message" onChange={handleChange}  value={inputData.message}/>
        
