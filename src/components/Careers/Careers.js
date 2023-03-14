@@ -1,7 +1,7 @@
 import "./Careers.css";
 import React from "react";
 import { Link } from "react-router-dom";
-import career from "../../images/career1.png";
+import career from "../../images/career2.png";
 import Job from "./Job";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 export default function Careers() {

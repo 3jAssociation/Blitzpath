@@ -8,7 +8,7 @@ function Navbar({isDarkMode,setIsDarkMode}) {
   
   return (
     <div className="container">
-    <header className="nav-item">
+    <header className="nav-item" id = "items">
         <div className="logo-section">
           <div className="logo">
           <Link to="/Blitzpath">

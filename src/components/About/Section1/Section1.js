@@ -1,5 +1,5 @@
 import React,{useEffect,useState} from 'react'
-import About_Section1 from "../../../images/About_Section3.jpg"
+import About_Section1 from "../../../images/Aboutusmain.jpg"
 import "./Section1.css"
 function Section1() {
     const textToType = 'Be world’s most sought after platform to leverage freelance technical talent in delivering value to clients and an outstanding experience to customers.'

@@ -6,21 +6,25 @@
 .wrapper {
   display: flex;
 }
+.location_title{
+  position: relative;
+  top: 40%;
+}
 .content,
 .pictures {
   flex: 1;
 }
 .heading {
   margin: 0;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 .content p {
   width: 80%;
   font-size: 1.2rem;
 }
-.pictures {
+/* .pictures { */
   /* border: 1px solid white; */
-}
+/* } */
 .pictures img {
   width: 100%;
   height: 100%;

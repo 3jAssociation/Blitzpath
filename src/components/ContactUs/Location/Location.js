@@ -1,6 +1,6 @@
 import styles from "./location.module.css";
-import MapImg from "../../../images/mapImg.jpg";
-import location from '../../../images/location.png'
+import MapImg from "../../../images/location1.jpeg";
+import location from '../../../images/location.png';
 import {Link} from 'react-router-dom'
 const Location = () => {
   const Location = [
@@ -25,12 +25,14 @@ const Location = () => {
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <div className={styles.content}>
+          <div className={styles.location_title}>
           <h1 className={styles.heading}>Location</h1>
           <p>
             Blitzpath has an open, tolerant, merit-driven, transparent
             work culture, where we encourage ideas for improvement from all
             quarters and have even created a democratic space for dissent.
           </p>
+          </div>
         </div>
         <div className={styles.pictures}>
           <img src={MapImg} alt="" />

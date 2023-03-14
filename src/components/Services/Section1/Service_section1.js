@@ -1,5 +1,5 @@
 import React from "react";
-import About_Section1 from "../../../images/tech.jpg";
+import About_Section1 from "../../../images/servicestop.jpeg";
 import "./Service_section1.css";
 import ConsultingServices from "../../../images/ConsultingServices.jpg";
 import AnalyticsServices from "../../../images/AnalyticsServices.jpg";

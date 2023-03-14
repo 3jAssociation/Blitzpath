@@ -14,7 +14,7 @@
   width: 85%;
   height: 100%;
   margin: 0 auto;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin-right: 20px;
   display: flex;
@@ -120,21 +120,23 @@ nav.mobile-device {
   color: white;
   font-size: 1rem;
   cursor: pointer;
+  padding-right: 0;
+  margin: 0.8rem 0;
+  height: 2.5rem;
 }
 
 .dropdown-content {
-  margin-top:14px;
+  margin-top:0px;
   display: none;
   position: absolute;
   right: -27px;
-  background-color: #f9f9f9;
+  background-color: black;
   min-width: 358px;
 
   z-index: 1;
 }
-
 .dropdown-content a {
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -181,13 +183,13 @@ color: #f98416
     
   }
   nav ul li a {
-
+    
     padding: 0px 10px;
-
+    
     font-size: 15px;
     letter-spacing: 1.5px;
 
-  
+    
   }
 }
 
@@ -195,32 +197,35 @@ color: #f98416
 @media screen and (max-width: 400px) {
   div.container{
     height: 67px;
-/*     border-bottom: 3px solid #6d6ff1; */
+    /*     border-bottom: 3px solid #6d6ff1; */
   }
  nav.desktop-device{
   display: none;
- }
+}
  nav.mobile-device{
-  display: block;
- }
- .dropdown-content a {
-  padding: 10px;
-  text-align: center;
+   display: block;
+  }
+  .dropdown-content a {
+    padding: 10px;
+    text-align: center;
 }
 
 header .logo-section .logo img{
   margin-top:10px;
   max-width:65px;
-
+  
 }
 header .logo-section .logo1 img{
   max-width:130px;
   margin-top: 20px;
 }
 header .logo-section{
-  width: 35%;
+  width: 42%;
 }
 
+.dropdown-content a:hover {
+  color: #f98416
+}
 }
 
 

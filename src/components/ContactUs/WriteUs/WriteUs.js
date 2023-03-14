@@ -3,7 +3,7 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import styled from "styled-components";
 import { AnimationOnScroll } from "react-animation-on-scroll";
-import logo from '../../../images/contactus.jpg'
+import logo from '../../../images/contactus-transformed.jpeg'
 // npm i @emailjs/browser
 // npm install styled-components
 const WriteUs = () => {
