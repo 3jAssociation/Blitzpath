@@ -7,12 +7,13 @@
   font-size: 36px;
 }
 .serviceContainer{
-width: 100%;
+width: 80%;
+margin : 0 auto;
 justify-content: center;
 
 }
 .services{
-width: 90%;
+width: 100%;
 margin: 0 auto;
 margin-top: 55px;
 }
@@ -33,7 +34,7 @@ grid-row-end: 3;
   /* margin: 20px 20px; */
   height: 700px;
   
-  grid-template-columns: 1fr 1.5fr 1fr;
+  grid-template-columns: 1fr 1.25fr 1fr;
   grid-template-rows: repeat(2, 1fr);
   gap: 20px;
   margin-bottom: 100px;
